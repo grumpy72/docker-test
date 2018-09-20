@@ -1,0 +1,2 @@
+docker build -t centos-lighttpd-perl .
+docker run --rm -d -p 8085:80 centos-lighttpd-perl
